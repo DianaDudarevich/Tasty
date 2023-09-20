@@ -1,0 +1,241 @@
+main {
+    width: 1690px;
+    height: 2963px;
+}
+
+.hero-logo {
+    display: flex;
+    gap: 24px;
+    margin-top: 29px;
+}
+
+.hero-logo img {
+    width: 143px;
+    height: 63px;
+}
+
+.hero-logo p {
+    color: #363636;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+}
+
+.hero-nav {
+    width: 414px;
+    height: 76px;
+}
+
+.hero-nav-list {
+    display: flex;
+    gap: 51px;
+    list-style-type: none;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 70px;
+    opacity: 0.8;
+    background: #FFF;
+    padding-top: 26px;
+    padding-bottom: 28px; 
+    padding-left: 67px; 
+    padding-right: 66px; 
+    color: #363636;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 29px;
+}
+
+.hero-nav-list li {
+    cursor: pointer;
+}
+
+.hero {
+    width: 1613px;
+    height: 795px;
+    background-image: url(/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 39px;
+    margin-top: 34px;
+    margin-right: 38px;
+    margin-bottom: 140px;
+    
+}
+
+.hero-head {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h1 {
+    font-family: 'Ardeco', sans-serif;
+    color: #363636;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.hero-slogan img {
+    margin-bottom: 0;
+    margin-left: 200px;
+}
+
+.hero-slogan h1 {
+    margin-top: 0;
+    margin-left: 200px;
+}
+
+.hero-slogan {
+    margin-top: 57px;
+    margin-bottom: 14px;
+}
+
+.hero-ellipse-wrap {
+    position: relative;
+    margin-left: 217px;
+    background-image: url(/img/Ellipse.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 208px;
+    height: 208px;
+}
+
+.hero-ellipse-stuff {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ardeco', sans-serif;
+    color: #241111;
+    font-size: 16px;
+    text-align: center;
+    top: 85px;
+    left: 57px;
+    right: 56px;
+    bottom: 104px;
+}
+
+.hero-ellipse-stuff img {
+    width: 24px;
+    height: 24px;
+}
+
+.section-greetings-wrap {
+    display: flex;
+    gap: 88px;
+    margin-left: 140px;
+    margin-bottom: 140px;
+}
+
+.section-greetings-text img {
+    margin-bottom: 29px;
+}
+
+.section-greetings-text h2 {
+    color: #363636;
+    font-family: 'Ardeco', sans-serif;
+    font-size: 73px;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 586px;
+}
+
+.section-greetings-text p {
+    margin-top: 0;
+    color: #363636;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    width: 528px;
+}
+
+.title-card {
+    color: #363636;
+    font-family: 'Ardeco', sans-serif;
+    font-size: 73px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 86px;
+    margin-bottom: 51px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 13px;
+    row-gap: 80px;
+    margin-left: 161px;
+    margin-right: 161px;
+}
+
+.card {
+    position: relative;
+    border-radius: 30px;
+    background: #FFF;  
+    width: 313px;
+    height: 440px; 
+}
+
+.card-product img {
+    width: 100%;
+    min-height: 255px;
+}
+
+.card-description {
+    width: 313px;
+}
+
+.card-description p {
+    font-family: 'Manrope', sans-serif;
+    color: #363636;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 27px;
+}
+
+.card-wrap {
+    border-radius: 30px;
+    background: #EEE;
+    width: 1613px;
+    height: 1293px;
+    margin-left: 39px;
+}
+
+.button {
+    text-align: center;
+    color: #241111;
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Ardeco', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 88px;
+    padding-right: 88px;
+    padding-top: 24px;
+    padding-bottom: 21px;
+    background-image: url();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* шрифты font-family: 'Neutral Face', sans-serif;
+font-family: 'Manrope', sans-serif;*\ 
+                                                
